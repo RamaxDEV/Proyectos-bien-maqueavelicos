@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+   
+    <div id="calculadora">
+        <input type="text" id="display" disabled>
+        <p id="mensaje-error" style="display: none; color: red;">Error: No se puede dividir por cero.</p>
+        <br>
+        <button id="ac" class="operador">DEL</button>
+        <button id="de" class="operador">⌫</button>
+        <button id="." class="operador punto"><span>.</span></button>
+        <button id="/" class="operador">/</button>
+        <br>
+        <button id="7">7</button>
+        <button id="8">8</button>
+        <button id="9">9</button>
+        <button id="*" class="operador">*</button>
+        <br>
+        <button id="4">4</button>
+        <button id="5">5</button>
+        <button id="6">6</button>
+        <button id="-" class="operador resta"><span>-</span></button>
+        <br>
+        <button id="1">1</button>
+        <button id="2">2</button>
+        <button id="3">3</button>
+        <button id="+" class="operador">+</button>
+        <br>
+        <button id="00">00</button>
+        <button id="0">0</button>
+        <button id="=" class="igual operador">=</button>
+    </div>
+
+    <button id="cambiar-color">🌙</button>
+    <button id="cambiar-color2">☀️</button>
+</body>
+<script src="app.js"></script>
+</html>
